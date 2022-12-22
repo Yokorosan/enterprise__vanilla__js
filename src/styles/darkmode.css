@@ -1,0 +1,28 @@
+.darktoggle__style__1 {
+  width: 40px;
+  height: 26px;
+  border-radius: var(--border-radius-4);
+  background-color: var(--gray-light);
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  cursor: pointer;
+  transform: scale(1);
+}
+.darktoggle__style__1 .ball {
+  background-color: var(--gray-light);
+  border-radius: var(--border-radius-5);
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  height: 24px;
+  width: 26px;
+  transform: var(--ball-transition);
+  transition: transform 0.2s linear;
+}
+.fa-sun {
+  color: #f1c80d;
+}
+
+.fa-moon {
+  color: #092cc7;
+}

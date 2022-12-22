@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresas - DashBoard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--Folhas de Estilo-->
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="../../styles/inputs.css">
+  <link rel="stylesheet" href="../../styles/buttons.css">
+  <link rel="stylesheet" href="../../styles/text.css">
+  <link rel="stylesheet" href="../../styles/flex.css">
+  <link rel="stylesheet" href="../../styles/darkmode.css">
+  <link rel="stylesheet" href="../../styles/image.css">
+  <link rel="stylesheet" href="../../styles/containers.css">
+  <link rel="stylesheet" href="../../styles/modal.css">
+  <link rel="stylesheet" href="../../styles/cabecalho.css">
+  <link rel="stylesheet" href="../../styles/formulario.css">
+  <link rel="stylesheet" href="../../styles/tabela.css">
+  <link rel="stylesheet" href="./dashboard.css">
+  <!--Scripts-->
+  <script defer type="module" src="./dashboard.js"></script>
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/bf0c663938.js" crossorigin="anonymous"></script>
+  <!--Toastify-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+
+<body>
+  <header class="cabecalho flex__column align__center">
+    <h2 class="cabecalho__title title__style__1">KenzieEmpresas</h2>
+    <div class="cabecalho__button">
+      <ul class="flex__row">
+        <li><button id="cabecalho__home" class="button__style__1">Home</button></li>
+        <li><button id="cabecalho__logout" class="button__style__2">Logout</button></li>
+      </ul>
+    </div>
+    <div id="dark__mode" class="dark__mode flex__row justify__between align__center darktoggle__style__1">
+      <i class="fa-solid fa-sun i__style__1"></i>
+      <i class="fa-solid fa-moon i__style__1"></i>
+      <div class="ball"></div>
+    </div>
+  </header>
+
+  <aside id="user__profile" class="user__profile flex__column align__center">
+  </aside>
+  <div id="main__body" class="main__body">
+  </div>
+  <!--Axios-->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

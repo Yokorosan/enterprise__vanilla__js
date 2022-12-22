@@ -1,0 +1,18 @@
+.tr__style__1 {
+  height: 40px;
+  width: 100%;
+  background-color: var(--primary);
+  border: 1px solid var(--white);
+  text-align: center;
+  padding: 20px 0px;
+}
+
+table {
+  width: 290px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .tabela__container {
+    margin-right: -5px;
+  }
+}

@@ -1,0 +1,64 @@
+.main__form {
+  width: 290px;
+  height: 450px;
+  padding-top: 10px;
+  background-color: var(--primary);
+  border-radius: var(--border-radius-3);
+  align-self: center;
+  margin-left: 3.1rem;
+  box-shadow: 4px 4px var(--primary-dark);
+}
+.main__form > input {
+  margin-top: 2rem;
+}
+.main__form > button {
+  margin-top: 2rem;
+}
+.main__form > button:active {
+  box-shadow: inset 2px 2px var(--primary-dark);
+}
+.main__form > .selec__sector {
+  width: 270px;
+  height: 50px;
+  margin-top: 2rem;
+  background-color: var(--input-bg);
+  font-family: var(--font-family-3);
+  font-size: var(--font-size-2);
+  color: var(--text-color);
+  border-radius: var(--border-radius-2);
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px var(--primary-dark);
+  font-weight: var(--font-weight-5);
+  outline: none;
+}
+@media (min-width: 345px) {
+  .main__form {
+    width: 345px;
+  }
+}
+@media (min-width: 768px) {
+  .main__form {
+    width: 400px;
+    height: 450px;
+    margin-left: 8.1rem;
+  }
+  .main__form > input {
+    width: 360px;
+    margin-top: 2rem;
+  }
+  .main__form > button {
+    width: 380px;
+    margin-top: 2rem;
+  }
+  .main__form > .selec__sector {
+    width: 310px;
+  }
+}
+@media (min-width: 1024px) {
+  .main__form {
+    margin-left: -3rem;
+  }
+  .main__form > .selec__sector {
+    width: 380px;
+  }
+}

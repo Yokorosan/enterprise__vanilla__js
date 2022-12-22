@@ -1,0 +1,19 @@
+.input_style_1 {
+  width: 250px;
+  height: 40px;
+
+  background-color: var(--input-bg);
+  font-family: var(--font-family-3);
+  font-size: var(--font-size-2);
+  color: var(--text-color);
+  border-radius: var(--border-radius-2);
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px var(--primary-dark);
+  padding: 5px 10px 5px 10px;
+}
+
+.input_style_1::placeholder {
+  font-weight: 700;
+  color: var(--text-color);
+}

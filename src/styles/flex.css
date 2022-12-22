@@ -1,0 +1,36 @@
+.flex__row {
+  display: flex;
+  flex-direction: row;
+}
+.flex__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify__center {
+  justify-content: center;
+}
+.justify__between {
+  justify-content: space-between;
+}
+.justify__around {
+  justify-content: space-around;
+}
+.justify__evenly {
+  justify-content: space-evenly;
+}
+.justify__start {
+  justify-content: flex-start;
+}
+.justify__end {
+  justify-content: flex-end;
+}
+.align__start {
+  align-items: flex-start;
+}
+.align__center {
+  align-items: center;
+}
+.no__white__wrap {
+  white-space: nowrap;
+}

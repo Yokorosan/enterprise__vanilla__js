@@ -1,0 +1,226 @@
+/*Folha de Reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*estilos globais*/
+
+:root {
+  /* Main Primary color */
+  --primary: #662e86;
+  --primary-light: #8d4cb3;
+  --primary-medium: #5e287e;
+  --primary-dark: #301440;
+  --gray-light: #cdbbd8;
+  --gray: #514c53;
+  --gray-dark: #262626;
+  --black: #0e0e0e;
+  --white: #e5e5e5;
+  --text-color: #1a0b24;
+  --bg-color: #cdbbd8;
+  --input-bg: #cdbbd8;
+  --gray-dark-faded: #26262650;
+
+  --font-family-1: "Inter", sans-serif;
+  --font-family-2: "Poppins", sans-serif;
+  --font-family-3: "Roboto", sans-serif;
+
+  --font-size-1: 24px;
+  --font-size-2: 16px;
+  --font-size-3: 12px;
+  --font-size-4: 48px;
+  --font-size-5: 20px;
+
+  --line-height-1: 2.4;
+  --line-height-2: 1.6;
+
+  --font-weight-1: 300;
+  --font-weight-2: 400;
+  --font-weight-3: 500;
+  --font-weight-4: 600;
+  --font-weight-5: 700;
+
+  --border-radius-1: 2px;
+  --border-radius-2: 4px;
+  --border-radius-3: 8px;
+  --border-radius-4: 50px;
+  --border-radius-5: 50%;
+
+  --gap_size_1: 10px;
+  --gap_size_2: 20px;
+  --gap_size_3: 30px;
+  --gap_size_4: 40px;
+  --gap_size_5: 50px;
+
+  --ball-transition: translateX(0px);
+}
+.dark-mode:root {
+  --primary: #2c0a48;
+  --primary-light: #550a90;
+  --primary-dark: #4c1d75;
+  --gray-light: #cdbbd8;
+  --gray: #514c53;
+  --gray-dark: #262626;
+  --black: #0e0e0e;
+  --white: #e5e5e5;
+  --text-color: #f1e4fb;
+  --bg-color: #110120;
+  --input-bg: #4c1578;
+
+  --font-family-1: "Inter", sans-serif;
+  --font-family-2: "Poppins", sans-serif;
+  --font-family-3: "Roboto", sans-serif;
+
+  --font-size-1: 24px;
+  --font-size-2: 16px;
+  --font-size-3: 12px;
+  --font-size-4: 48px;
+  --font-size-5: 20px;
+
+  --line-height-1: 2.4;
+  --line-height-2: 1.6;
+
+  --font-weight-1: 300;
+  --font-weight-2: 400;
+  --font-weight-3: 500;
+  --font-weight-4: 600;
+  --font-weight-5: 700;
+
+  --border-radius-1: 2px;
+  --border-radius-2: 4px;
+  --border-radius-3: 8px;
+  --border-radius-4: 50px;
+  --border-radius-5: 50%;
+
+  --gap_size_1: 10px;
+  --gap_size_2: 20px;
+  --gap_size_3: 30px;
+  --gap_size_4: 40px;
+  --gap_size_5: 50px;
+
+  --ball-transition: translateX(24px);
+}
+
+body {
+  background-color: var(--bg-color);
+  transition: 0.2s linear;
+}

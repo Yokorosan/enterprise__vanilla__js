@@ -1,0 +1,105 @@
+.modal {
+  position: absolute;
+  z-index: 999;
+  width: 200vw;
+  height: 300vh;
+  background-color: var(--gray-dark-faded);
+  animation: slideErrorIn 2s;
+}
+.slideErrorOut {
+  animation: slideErrorOut 2s;
+}
+
+@keyframes slideErrorIn {
+  0% {
+    opacity: 0;
+    transform: translate(-90%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes slideErrorOut {
+  0% {
+    opacity: 1;
+    transform: translate(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-90%);
+  }
+}
+
+.modal__card {
+  margin: 15px;
+  position: fixed;
+  top: 20vh;
+  width: 260px;
+  height: 400px;
+  border-radius: var(--border-radius-3);
+  background-color: var(--primary);
+  padding: 15px;
+  gap: 40px;
+}
+.modal__card > h2 {
+  text-align: center;
+  color: var(--white);
+}
+.modal__card > p {
+  color: var(--white);
+  text-align: center;
+}
+.modal__card > button {
+  align-self: flex-end;
+}
+.modal__card > button:active {
+  box-shadow: inset 2px 2px var(--primary-dark);
+}
+@media (min-width: 375px) {
+  .modal__card {
+    margin: 25px;
+    width: 280px;
+    height: 300px;
+  }
+}
+@media (min-width: 425px) {
+  .modal__card {
+    margin: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .modal__card {
+    width: 410px;
+    margin: 126px;
+    margin-left: 168px;
+  }
+  .modal__card > h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--white);
+  }
+  .modal__card > p {
+    font-size: var(--font-size-1);
+    color: var(--white);
+  }
+  .modal__card > button {
+    align-self: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+  .modal__card {
+    margin-left: 295px;
+  }
+}
+@media (min-width: 1440px) {
+  .modal__card {
+    margin-left: 500px;
+  }
+}
+@media (min-width: 1920px) {
+  .modal__card {
+    margin-left: 740px;
+  }
+}

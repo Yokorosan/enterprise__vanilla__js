@@ -1,0 +1,6 @@
+.imagem__background {
+  width: 900px;
+  height: 800px;
+  border-radius: var(--border-radius-3);
+  box-shadow: 7px 7px var(--primary-dark);
+}

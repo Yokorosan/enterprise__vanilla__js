@@ -1,0 +1,32 @@
+.title__container {
+  margin: 2rem 0rem 3rem 3rem;
+}
+.main__container {
+  margin: 2rem 3.5rem 0rem 0rem;
+}
+
+@media (min-width: 375px) {
+  .main__container {
+    margin: 2rem 4rem 0rem 0rem;
+  }
+  .main__container > h2 {
+    margin: 2rem 0rem 3rem 3rem;
+  }
+}
+@media (min-width: 425px) {
+}
+@media (min-width: 768px) {
+  .title__container {
+    width: 400px;
+    margin: 2rem 0rem 3rem 8rem;
+  }
+  .main__container {
+    margin: 5rem 8rem 0rem 0rem;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1440px) {
+}
+@media (min-width: 1920px) {
+}
